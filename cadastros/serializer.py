@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from estacionamento.models import Cliente
+from cadastros.models import Cliente
 
 class ClienteSerializer(serializers.ModelSerializer):
     class Meta:

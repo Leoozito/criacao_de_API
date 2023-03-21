@@ -1,5 +1,5 @@
 from django.contrib import admin
-from estacionamento.models import Cliente
+from cadastros.models import Cliente
 
 class Clientes(admin.ModelAdmin):
     list_display = ('id', 'nome', 'rg', 'placa')
