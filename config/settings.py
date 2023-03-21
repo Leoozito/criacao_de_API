@@ -28,7 +28,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cadastros.apps.CadastrosConfig',
     'rest_framework',
-    
 ]
 
 MIDDLEWARE = [
@@ -71,10 +70,10 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'railway',  # postgres
         'USER': 'postgres',
-        'PASSWORD': '90iLeMCJiR5yBoRkyM0I',
+        'PASSWORD': 'SKSdfLP8rOX035tZy2FP',
         # 'db' caso exista um serviço com esse nome.
-        'HOST': 'containers-us-west-205.railway.app',
-        'PORT': '7123'
+        'HOST': 'containers-us-west-151.railway.app',
+        'PORT': '7065'
     }
 }
 
