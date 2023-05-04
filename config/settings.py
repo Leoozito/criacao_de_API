@@ -67,13 +67,13 @@ WSGI_APPLICATION = 'config.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'railway',  # postgres
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'db',  # postgres #talves "db"
         'USER': 'postgres',
-        'PASSWORD': 'SKSdfLP8rOX035tZy2FP',
+        'PASSWORD': '123456',
         # 'db' caso exista um serviço com esse nome.
-        'HOST': 'containers-us-west-151.railway.app',
-        'PORT': '7065'
+        'HOST': '127.0.0.1',
+        'PORT': '5432'
     }
 }
 
@@ -118,3 +118,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD='django.db.models.AutoField' 
+
+ALLOWED_HOSTS = ['*']
